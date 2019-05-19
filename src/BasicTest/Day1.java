@@ -18,6 +18,9 @@ public class Day1
   public void demo()
   {
 	  System.out.println("hi");
+	  System.out.println("hi1");
+	  System.out.println("hi2");
+	  
 	  
   }
   
