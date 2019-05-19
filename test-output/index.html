@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Loan_Operations">
+              <span class="suite-name border-failed">Loan Operations</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Loan_Operations">
+                    <span>C:\Pavan\Selenium New\SeleniumV2\TestNG Pratcise\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Loan_Operations">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Loan_Operations">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Loan_Operations">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Loan_Operations">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Loan_Operations">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Loan_Operations">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods, 1 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Loan_Operations" class="hide-methods failed suite-Loan_Operations"> (hide)</a> <!-- hide-methods failed suite-Loan_Operations -->
+                      <a href="#" panel-name="suite-Loan_Operations" class="show-methods failed suite-Loan_Operations"> (show)</a> <!-- show-methods failed suite-Loan_Operations -->
+                    </span>
+                    <div class="method-list-content failed suite-Loan_Operations">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_Operations" title="BasicTest.Day3" hash-for-method="failMethod">failMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Loan_Operations -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Loan_Operations" class="hide-methods passed suite-Loan_Operations"> (hide)</a> <!-- hide-methods passed suite-Loan_Operations -->
+                      <a href="#" panel-name="suite-Loan_Operations" class="show-methods passed suite-Loan_Operations"> (show)</a> <!-- show-methods passed suite-Loan_Operations -->
+                    </span>
+                    <div class="method-list-content passed suite-Loan_Operations">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_Operations" title="BasicTest.Day3" hash-for-method="apiCarLOan">apiCarLOan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_Operations" title="BasicTest.Day4" hash-for-method="apiHomeLOan">apiHomeLOan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_Operations" title="BasicTest.Day1" hash-for-method="dataDriven">dataDriven</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_Operations" title="BasicTest.Day1" hash-for-method="demo">demo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_Operations" title="BasicTest.Day1" hash-for-method="demo1(personal loan)">demo1(personal loan)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_Operations" title="BasicTest.Day2" hash-for-method="demo3">demo3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_Operations" title="BasicTest.Day2" hash-for-method="demo4(name2, pwd2)">demo4(name2, pwd2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_Operations" title="BasicTest.Day2" hash-for-method="demo4(name1, pwd1)">demo4(name1, pwd1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_Operations" title="BasicTest.Day2" hash-for-method="demo4(name3, pwd3)">demo4(name3, pwd3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_Operations" title="BasicTest.Day3" hash-for-method="mobCarLoan">mobCarLoan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_Operations" title="BasicTest.Day4" hash-for-method="mobHomeLoan">mobHomeLoan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_Operations" title="BasicTest.Day3" hash-for-method="webCarLoan">webCarLoan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Loan_Operations" title="BasicTest.Day4" hash-for-method="webHomeLoan">webHomeLoan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Loan_Operations -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Loan_Operations" class="panel Loan_Operations">
+          <div class="suite-Loan_Operations-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">BasicTest.Day3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="failMethod">
+                  </a> <!-- failMethod -->
+                  <span class="method-name">failMethod</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at BasicTest.Day3.failMethod(Day3.java:27)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Loan_Operations-class-failed -->
+          <div class="suite-Loan_Operations-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BasicTest.Day2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="demo3">
+                  </a> <!-- demo3 -->
+                  <span class="method-name">demo3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="demo4(name2, pwd2)">
+                  </a> <!-- demo4(name2, pwd2) -->
+                  <span class="method-name">demo4</span>
+                  <span class="parameters">(name2, pwd2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="demo4(name1, pwd1)">
+                  </a> <!-- demo4(name1, pwd1) -->
+                  <span class="method-name">demo4</span>
+                  <span class="parameters">(name1, pwd1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="demo4(name3, pwd3)">
+                  </a> <!-- demo4(name3, pwd3) -->
+                  <span class="method-name">demo4</span>
+                  <span class="parameters">(name3, pwd3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Loan_Operations-class-passed -->
+          <div class="suite-Loan_Operations-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BasicTest.Day3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="apiCarLOan">
+                  </a> <!-- apiCarLOan -->
+                  <span class="method-name">apiCarLOan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mobCarLoan">
+                  </a> <!-- mobCarLoan -->
+                  <span class="method-name">mobCarLoan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webCarLoan">
+                  </a> <!-- webCarLoan -->
+                  <span class="method-name">webCarLoan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Loan_Operations-class-passed -->
+          <div class="suite-Loan_Operations-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BasicTest.Day4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="apiHomeLOan">
+                  </a> <!-- apiHomeLOan -->
+                  <span class="method-name">apiHomeLOan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mobHomeLoan">
+                  </a> <!-- mobHomeLoan -->
+                  <span class="method-name">mobHomeLoan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webHomeLoan">
+                  </a> <!-- webHomeLoan -->
+                  <span class="method-name">webHomeLoan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Loan_Operations-class-passed -->
+          <div class="suite-Loan_Operations-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BasicTest.Day1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dataDriven">
+                  </a> <!-- dataDriven -->
+                  <span class="method-name">dataDriven</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="demo">
+                  </a> <!-- demo -->
+                  <span class="method-name">demo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="demo1(personal loan)">
+                  </a> <!-- demo1(personal loan) -->
+                  <span class="method-name">demo1</span>
+                  <span class="parameters">(personal loan)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Loan_Operations-class-passed -->
+        </div> <!-- panel Loan_Operations -->
+        <div panel-name="test-xml-Loan_Operations" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Pavan\Selenium New\SeleniumV2\TestNG Pratcise\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Loan Operations&quot; parallel=&quot;tests&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;BasicTest.Listener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Personal Loan&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;personal loan&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BasicTest.Day1&quot;/&gt;
+      &lt;class name=&quot;BasicTest.Day2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Personal Loan --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Car loan&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BasicTest.Day3&quot;/&gt;
+      &lt;class name=&quot;BasicTest.Day4&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Car loan --&gt;
+&lt;/suite&gt; &lt;!-- Loan Operations --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Loan_Operations" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Loan Operations</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Personal Loan (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Car loan (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Loan_Operations" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Loan Operations</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">apiCarLOan</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">demo3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">mobHomeLoan</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Loan_Operations" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Loan Operations</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Loan_Operations');
+function tableData_Loan_Operations() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'dataDriven')
+data.setCell(0, 2, 'BasicTest.Day1')
+data.setCell(0, 3, 6757);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'demo')
+data.setCell(1, 2, 'BasicTest.Day1')
+data.setCell(1, 3, 14);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'apiCarLOan')
+data.setCell(2, 2, 'BasicTest.Day3')
+data.setCell(2, 3, 10);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'failMethod')
+data.setCell(3, 2, 'BasicTest.Day3')
+data.setCell(3, 3, 7);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'demo4')
+data.setCell(4, 2, 'BasicTest.Day2')
+data.setCell(4, 3, 4);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'demo4')
+data.setCell(5, 2, 'BasicTest.Day2')
+data.setCell(5, 3, 4);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'webHomeLoan')
+data.setCell(6, 2, 'BasicTest.Day4')
+data.setCell(6, 3, 2);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'mobCarLoan')
+data.setCell(7, 2, 'BasicTest.Day3')
+data.setCell(7, 3, 2);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'mobHomeLoan')
+data.setCell(8, 2, 'BasicTest.Day4')
+data.setCell(8, 3, 2);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'webCarLoan')
+data.setCell(9, 2, 'BasicTest.Day3')
+data.setCell(9, 3, 2);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'demo1')
+data.setCell(10, 2, 'BasicTest.Day1')
+data.setCell(10, 3, 2);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'demo4')
+data.setCell(11, 2, 'BasicTest.Day2')
+data.setCell(11, 3, 2);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'apiHomeLOan')
+data.setCell(12, 2, 'BasicTest.Day4')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'demo3')
+data.setCell(13, 2, 'BasicTest.Day2')
+data.setCell(13, 3, 1);
+window.suiteTableData['Loan_Operations']= { tableData: data, tableDiv: 'times-div-Loan_Operations'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <div id="times-div-Loan_Operations">
+              </div> <!-- times-div-Loan_Operations -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Loan_Operations" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Loan Operations</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Loan_Operations" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Loan_Operations" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">BasicTest.Day1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">dataDriven</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BasicTest.Day3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">apiCarLOan</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">failMethod</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mobCarLoan</span>
+                <span class="method-start">29 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">webCarLoan</span>
+                <span class="method-start">34 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BasicTest.Day4</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">webHomeLoan</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mobHomeLoan</span>
+                <span class="method-start">44 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">apiHomeLOan</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BasicTest.Day1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">demo</span>
+                <span class="method-start">6763 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">demo1(personal loan)</span>
+                <span class="method-start">6787 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BasicTest.Day2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">demo3</span>
+                <span class="method-start">6796 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">demo4(name1, pwd1)</span>
+                <span class="method-start">6804 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">demo4(name2, pwd2)</span>
+                <span class="method-start">6809 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">demo4(name3, pwd3)</span>
+                <span class="method-start">6816 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

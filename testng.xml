@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- for parallel test exection 1.parallel="test" and thread-count variable should be initialzed -->
+<suite name="Loan Operations" parallel="tests" thread-count="2">
+
+<!-- Implementing listener  -->
+  <listeners>
+	<listener class-name="BasicTest.Listener"/>
+</listeners> 
+
+
+  <test thread-count="5" name="Personal Loan">
+  
+  <!-- Implementing Parameter in TestNG using XML file -->  
+  <parameter name="url" value="personal loan"/>
+    
+    <classes>
+      <class name="BasicTest.Day1"/>
+      <class name="BasicTest.Day2"/>
+    </classes>
+  </test> 
+  
+  <test thread-count="5" name="Car loan"> 
+  <classes>
+   <class name="BasicTest.Day3"/>
+   
+   <class name="BasicTest.Day4">
+    <!--  Implementing include and exculde or helper attribute of TestNG  	
+    
+    <methods>
+       		<include name="apiHomeLOan"/>
+       		<include name="webHomeLoan"/>
+     	 </methods>  --> 
+      </class>
+   
+     </classes>
+  </test>
+  
+</suite> <!-- Suite -->

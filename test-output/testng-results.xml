@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="14" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan Operations" duration-ms="6849" started-at="2019-02-13T14:12:01Z" finished-at="2019-02-13T14:12:08Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="Day2.demo3()[pri:0, instance:BasicTest.Day2@9629756]" name="demo3" class="BasicTest.Day2"/>
+        <method signature="Day3.apiCarLOan()[pri:0, instance:BasicTest.Day3@46d56d67]" name="apiCarLOan" class="BasicTest.Day3"/>
+        <method signature="Day4.mobHomeLoan()[pri:0, instance:BasicTest.Day4@d8355a8]" name="mobHomeLoan" class="BasicTest.Day4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Car loan" duration-ms="91" started-at="2019-02-13T14:12:01Z" finished-at="2019-02-13T14:12:02Z">
+      <class name="BasicTest.Day4">
+        <test-method status="PASS" signature="webHomeLoan()[pri:0, instance:BasicTest.Day4@d8355a8]" name="webHomeLoan" duration-ms="2" started-at="2019-02-13T14:12:02Z" finished-at="2019-02-13T14:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webHomeLoan -->
+        <test-method status="PASS" signature="mobHomeLoan()[pri:0, instance:BasicTest.Day4@d8355a8]" name="mobHomeLoan" duration-ms="2" started-at="2019-02-13T14:12:02Z" finished-at="2019-02-13T14:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobHomeLoan -->
+        <test-method status="PASS" signature="apiHomeLOan()[pri:0, instance:BasicTest.Day4@d8355a8]" name="apiHomeLOan" duration-ms="1" started-at="2019-02-13T14:12:02Z" depends-on-methods="BasicTest.Day4.webHomeLoan" finished-at="2019-02-13T14:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiHomeLOan -->
+      </class> <!-- BasicTest.Day4 -->
+      <class name="BasicTest.Day3">
+        <test-method status="PASS" signature="apiCarLOan()[pri:0, instance:BasicTest.Day3@46d56d67]" name="apiCarLOan" duration-ms="10" started-at="2019-02-13T14:12:02Z" finished-at="2019-02-13T14:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiCarLOan -->
+        <test-method status="FAIL" signature="failMethod()[pri:0, instance:BasicTest.Day3@46d56d67]" name="failMethod" duration-ms="7" started-at="2019-02-13T14:12:02Z" finished-at="2019-02-13T14:12:02Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at BasicTest.Day3.failMethod(Day3.java:27)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failMethod -->
+        <test-method status="PASS" signature="mobCarLoan()[pri:0, instance:BasicTest.Day3@46d56d67]" name="mobCarLoan" duration-ms="2" started-at="2019-02-13T14:12:02Z" finished-at="2019-02-13T14:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobCarLoan -->
+        <test-method status="PASS" signature="webCarLoan()[pri:0, instance:BasicTest.Day3@46d56d67]" name="webCarLoan" duration-ms="2" started-at="2019-02-13T14:12:02Z" finished-at="2019-02-13T14:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webCarLoan -->
+      </class> <!-- BasicTest.Day3 -->
+    </test> <!-- Car loan -->
+    <test name="Personal Loan" duration-ms="6849" started-at="2019-02-13T14:12:01Z" finished-at="2019-02-13T14:12:08Z">
+      <class name="BasicTest.Day2">
+        <test-method status="PASS" signature="demo3()[pri:0, instance:BasicTest.Day2@9629756]" name="demo3" duration-ms="1" started-at="2019-02-13T14:12:08Z" finished-at="2019-02-13T14:12:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo3 -->
+        <test-method status="PASS" signature="demo4(java.lang.String, java.lang.String)[pri:0, instance:BasicTest.Day2@9629756]" name="demo4" duration-ms="2" started-at="2019-02-13T14:12:08Z" data-provider="getData" finished-at="2019-02-13T14:12:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo4 -->
+        <test-method status="PASS" signature="demo4(java.lang.String, java.lang.String)[pri:0, instance:BasicTest.Day2@9629756]" name="demo4" duration-ms="4" started-at="2019-02-13T14:12:08Z" data-provider="getData" finished-at="2019-02-13T14:12:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo4 -->
+        <test-method status="PASS" signature="demo4(java.lang.String, java.lang.String)[pri:0, instance:BasicTest.Day2@9629756]" name="demo4" duration-ms="4" started-at="2019-02-13T14:12:08Z" data-provider="getData" finished-at="2019-02-13T14:12:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo4 -->
+      </class> <!-- BasicTest.Day2 -->
+      <class name="BasicTest.Day1">
+        <test-method status="PASS" signature="dataDriven()[pri:0, instance:BasicTest.Day1@396a51ab]" name="dataDriven" duration-ms="6757" started-at="2019-02-13T14:12:02Z" finished-at="2019-02-13T14:12:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDriven -->
+        <test-method status="PASS" signature="demo()[pri:0, instance:BasicTest.Day1@396a51ab]" name="demo" duration-ms="14" started-at="2019-02-13T14:12:08Z" finished-at="2019-02-13T14:12:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method status="PASS" signature="demo1(java.lang.String)[pri:0, instance:BasicTest.Day1@396a51ab]" name="demo1" duration-ms="2" started-at="2019-02-13T14:12:08Z" finished-at="2019-02-13T14:12:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personal loan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+      </class> <!-- BasicTest.Day1 -->
+    </test> <!-- Personal Loan -->
+  </suite> <!-- Loan Operations -->
+</testng-results>

@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Loan Operations</th></tr>
+<tr><td><a href="#t0">Car loan</a></td><td class="num">6</td><td class="num">0</td><td class="num attn">1</td><td class="num">91</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Personal Loan</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">6,849</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">13</th><th class="num">0</th><th class="num attn">1</th><th class="num">6,940</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Loan Operations</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Car loan &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">BasicTest.Day3</td><td><a href="#m0">failMethod</a></td><td rowspan="1">1550067122034</td><td rowspan="1">7</td></tr><tr><th colspan="4">Car loan &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">BasicTest.Day3</td><td><a href="#m1">apiCarLOan</a></td><td rowspan="1">1550067122018</td><td rowspan="1">10</td></tr><tr class="passedeven"><td><a href="#m2">mobCarLoan</a></td><td rowspan="1">1550067122047</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m3">webCarLoan</a></td><td rowspan="1">1550067122052</td><td rowspan="1">2</td></tr><tr class="passedodd"><td rowspan="3">BasicTest.Day4</td><td><a href="#m4">apiHomeLOan</a></td><td rowspan="1">1550067122078</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m5">mobHomeLoan</a></td><td rowspan="1">1550067122062</td><td rowspan="1">2</td></tr><tr class="passedodd"><td><a href="#m6">webHomeLoan</a></td><td rowspan="1">1550067122056</td><td rowspan="1">2</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Personal Loan &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">BasicTest.Day1</td><td><a href="#m7">dataDriven</a></td><td rowspan="1">1550067122018</td><td rowspan="1">6757</td></tr><tr class="passedeven"><td><a href="#m8">demo</a></td><td rowspan="1">1550067128781</td><td rowspan="1">14</td></tr><tr class="passedeven"><td><a href="#m9">demo1</a></td><td rowspan="1">1550067128805</td><td rowspan="1">2</td></tr><tr class="passedodd"><td rowspan="4">BasicTest.Day2</td><td><a href="#m10">demo3</a></td><td rowspan="1">1550067128814</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m11">demo4</a></td><td rowspan="3">1550067128827</td><td rowspan="3">4</td></tr><tr class="passedodd"><td><a href="#m12">demo4</a></td></tr><tr class="passedodd"><td><a href="#m13">demo4</a></td></tr></tbody>
+</table>
+<h2>Car loan</h2><h3 id="m0">BasicTest.Day3#failMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at BasicTest.Day3.failMethod(Day3.java:27)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">BasicTest.Day3#apiCarLOan</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">BasicTest.Day3#mobCarLoan</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">BasicTest.Day3#webCarLoan</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">BasicTest.Day4#apiHomeLOan</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">BasicTest.Day4#mobHomeLoan</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">BasicTest.Day4#webHomeLoan</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Personal Loan</h2><h3 id="m7">BasicTest.Day1#dataDriven</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">BasicTest.Day1#demo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">BasicTest.Day1#demo1</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>personal loan</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">BasicTest.Day2#demo3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">BasicTest.Day2#demo4</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>name2</td><td>pwd2</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">BasicTest.Day2#demo4</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>name1</td><td>pwd1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">BasicTest.Day2#demo4</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>name3</td><td>pwd3</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
